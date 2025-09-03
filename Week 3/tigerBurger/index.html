@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiger Burgers</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="conatiner">
+      <h1>Tiger Menu</h1>
+      <form id="orderForm">
+        <h2>Menu</h2>
+        <div class="menu-item">
+          <label>
+            <input type="checkbox" id="burger" value="burger" /> Burger ($5.99)
+          </label>
+        </div>
+        <div class="menu-item">
+          <label>
+            <input type="checkbox" id="pizza" value="pizza" /> Pizza ($8.99)
+          </label>
+        </div>
+        <div class="menu-item">
+          <label>
+            <input type="checkbox" id="salad" value="salad" /> Salad ($6.99)
+          </label>
+        </div>
+        <div class="menu-item">
+          <label>
+            <input type="checkbox" id="drink" value="drink" /> Drink ($1.99)
+          </label>
+        </div>
+
+        <h2>Discount Code</h2>
+        <input
+          type="text"
+          id="discountCode"
+          placeholder="Enter discount code "
+        />
+        <button type="button" onclick="calculateOrder()">
+          Calculate Total
+        </button>
+      </form>
+
+      <div id="orderSummary">
+        <h2>Order Summary</h2>
+        <p id="totalBeforeDiscount"></p>
+        <p id="finalTotal"></p>
+        <p id="discountApplied"></p>
+      </div>
+    </div>
+  </body>
+</html>
