@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+.game-container {
+  max-width: 400px;
+  margin: auto;
+}
+#result {
+  margin-top: 10px;
+  font-weight: bold;
+}

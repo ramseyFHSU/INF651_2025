@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Multiplication Table</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Multiplication Table Generator</h1>
+
+      <form id="tableForm" class="panel" novalidate>
+        <div class="field">
+          <label for="numInput">Base number</label>
+          <input
+            type="number"
+            id="numInput"
+            placeholder="e.g., 7"
+            inputmode="numeric"
+          />
+        </div>
+
+        <div class="field">
+          <label for="limitInput">Upto (rows)</label>
+          <input type="number" id="limitInput" value="10" min="1" max="50" />
+        </div>
+
+        <div class="actions">
+          <button type="button" id="generateBtn">Generate</button>
+          <button type="button" id="resetBtn" class="secondary">Reset</button>
+        </div>
+
+        <p id="message" class="message" aria-live="polite"></p>
+      </form>
+
+      <section id="outputSection" class="output" aria-live="polite">
+        <!-- Table will be injected here -->
+      </section>
+    </main>
+
+    <script defer src="js/script.js"></script>
+  </body>
+</html>
