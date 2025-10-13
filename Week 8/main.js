@@ -6,7 +6,7 @@ console.log(variable);
 const myName = "John doe";
 myName = "Jane Doe";
 
-// Syntax Errors
+//<----- Syntax Errors ----->
 // function sayHello() {
 // console.log("Hello, world!";
 //   }
@@ -24,7 +24,7 @@ function add(a, b) {
 }
 // If you forget the closing bracket of the function, you'll get a SyntaxError.
 
-//  Reference Error
+//  <------- Reference Error -------->
 console.log(nonExistentVariable);
 // ReferenceError: nonExistentVariable is not defined
 
@@ -32,6 +32,7 @@ const num = 10;
 num.toUpperCase();
 // TypeError: num.toUpperCase is not a function, as toUpperCase is a String method
 
+//  <------- Runtime Error -------->
 fetch("https://example.com/doesnotexist")
   .then((response) => response.json())
   .then((data) => console.log(data))
