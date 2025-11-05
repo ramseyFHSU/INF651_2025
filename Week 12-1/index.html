@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-black navbar-dark py-3">
+      <div class="container">
+        <a href="#" class="navbar-brand">Tigers Club</a>
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Current projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About the club</a>
+            </li>
+            <li class="nav-item">
+              <a href="#developers" class="nav-link">Developers</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- showcase -->
+    <section class="bg-dark text-light text-center text-sm-start p-5">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Join the <span class="text-warning">Tigers Club</span></h1>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem
+              eligendi magni dolore architecto molestias iure provident tempora
+              maxime voluptate doloremque reiciendis neque, blanditiis, nostrum
+              corporis.
+            </p>
+          </div>
+          <div class="text-center flex-shrink-1" style="max-width: 400px">
+            <img src="tiger.png" alt="Tiger" class="img-fluid w-100" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NewsLetter -->
+    <section class="bg-warning text-dark p-5">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <h3 class="mb-3 mb-md-0">Signup For updates</h3>
+          <div class="input-group news-input">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter your email"
+            />
+            <button
+              class="btn btn-dark btn-lg"
+              type="button"
+              id="button-addon2"
+            >
+              Button
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cards -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="mb-3 h1">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <h3 class="card-title">Projects</h3>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Officia velit natus autem asperiores minus eaque unde quam
+                  omnis facere quaerat? Totam cumque facilis nihil tenetur.
+                </p>
+                <a href="#" class="btn btn-warning">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="mb-3 h1">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h3 class="card-title">About Us</h3>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Officia velit natus autem asperiores minus eaque unde quam
+                  omnis facere quaerat? Totam cumque facilis nihil tenetur.
+                </p>
+                <a href="#" class="btn btn-warning">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="mb-3 h1">
+                  <i class="bi bi-person"></i>
+                </div>
+                <h3 class="card-title">Developers</h3>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Officia velit natus autem asperiores minus eaque unde quam
+                  omnis facere quaerat? Totam cumque facilis nihil tenetur.
+                </p>
+                <a href="#" class="btn btn-warning">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learn-section -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="tiger.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col-md p-5">
+            <h2>Tiger Pact</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+              placeat dignissimos fugiat voluptatum impedit similique culpa
+              odio. Sed molestiae repellat, illo quos facilis quidem, saepe sint
+              quae officiis quod beatae.
+            </p>
+            <a href="#" class="btn btn-dark mt-3"
+              ><i class="bi bi-chevron-right">Read more</i></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Developers -->
+    <section class="p-5 bg-warning">
+      <div class="container">
+        <h2 class="text-center text-dark">Our Developers</h2>
+        <p class="lead text-center text-dark mb-5">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea,
+          laudantium doloremque hic nisi quod impedit soluta laborum nostrum
+          debitis ipsum dolorum ab fuga cupiditate repellendus dolores quam
+          aspernatur eveniet cumque!
+        </p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/lego/7.jpg"
+                  class="rounded-circle"
+                  style="max-width: 100px"
+                />
+                <h3 class="card-title mb-3">John Doe</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Ipsam distinctio.
+                </p>
+                <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-github text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/lego/8.jpg"
+                  class="rounded-circle"
+                  style="max-width: 100px"
+                />
+                <h3 class="card-title mb-3">Jason Doe</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Ipsam distinctio.
+                </p>
+                <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-github text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/lego/9.jpg"
+                  class="rounded-circle"
+                  style="max-width: 100px"
+                />
+                <h3 class="card-title mb-3">Jane Doe</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Ipsam distinctio.
+                </p>
+                <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-github text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/lego/6.jpg"
+                  class="rounded-circle"
+                  style="max-width: 100px"
+                />
+                <h3 class="card-title mb-3">Jack Doe</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Ipsam distinctio.
+                </p>
+                <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href=""><i class="bi bi-github text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 text-white bg-dark text-center position-relative">
+      <div class="container">
+        <p class="lead">CopyRight &copy 2025 Bootstrap Demo</p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5"
+          ><i class="bi bi-arrow-up-circle h1"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
