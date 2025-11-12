@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "price": 5,
+    "available": true,
+    "cover": "../assets/atomic.jpg"
+  },
+  {
+    "id": 2,
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt",
+    "price": 6,
+    "available": true,
+    "cover": "../assets/TPP.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "price": 7,
+    "available": false,
+    "cover": "../assets/CC.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "price": 4,
+    "available": true,
+    "cover": "../assets/TPP.jpg"
+  },
+  {
+    "id": 5,
+    "title": "You Don't Know JS Yet",
+    "author": "Kyle Simpson",
+    "price": 5,
+    "available": true,
+    "cover": "../assets/TPP.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Refactoring",
+    "author": "Martin Fowler",
+    "price": 6,
+    "available": true,
+    "cover": "../assets/TPP.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+    "author": "Erich Gamma",
+    "price": 8,
+    "available": false,
+    "cover": "../assets/TPP.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Eloquent JavaScript",
+    "author": "Marijn Haverbeke",
+    "price": 4,
+    "available": true,
+    "cover": "../assets/TPP.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Cracking the Coding Interview",
+    "author": "Gayle Laakmann McDowell",
+    "price": 9,
+    "available": true,
+    "cover": "../assets/TPP.jpg"
+  },
+  {
+    "id": 10,
+    "title": "The Clean Coder",
+    "author": "Robert C. Martin",
+    "price": 6,
+    "available": true,
+    "cover": "../assets/TPP.jpg"
+  }
+]

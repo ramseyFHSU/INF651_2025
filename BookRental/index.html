@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Rental App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tiger Book Rental</h1>
+    </header>
+
+    <main>
+      <section id="book-section">
+        <h2>Available Books</h2>
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search by title or author..."
+        />
+        <div id="book-list" class="book-grid"></div>
+      </section>
+
+      <aside id="cart-section">
+        <h2>Your Rental Cart</h2>
+        <ul id="cart-list"></ul>
+        <p id="total">Total: $0</p>
+        <button id="checkout">Place Rental</button>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Book Rental App</p>
+    </footer>
+
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>
